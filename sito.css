@@ -11,7 +11,7 @@ body{
 }
 .menu {
 	font-family:"Helvetica";
-	font-weight: Medium;
+	font-weight: bold;
 	font-size:16px;
 	background-color: #000000;
 }
@@ -66,6 +66,7 @@ body{
 	width:30%;
 	font-size:20px;
 	font-family:"Helvetica";
+	font-weight: bold;
 	color:black;
 }
 .fotogruppo {
@@ -92,10 +93,11 @@ body{
 #nomi {
 	font-family: "Helvetica";
 	font-weight: bold;
-	color:white;
+	color:black;
 }
 #descrizioni {
 	font-family: "Helvetica";
+	font-weight: bold;
 	color:black;
 }
 .Ahmed {
