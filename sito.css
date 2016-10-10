@@ -10,7 +10,8 @@ body{
 	;
 }
 .menu {
-	font-family:"Neutraface 2 text";
+	font-family:"Helvetica";
+	font-weight: Medium;
 	font-size:16px;
 	background-color: #000000;
 }
