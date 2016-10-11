@@ -57,7 +57,7 @@ body{
 	margin-top: 300px ;
 }
 #titoli {
-	font-family:"Helvetica";
+	font-family:'Montserrat', sans-serif;
 	font-weight:Bold;
 	font-size:50px;
 	text-decoration: none;
@@ -92,9 +92,9 @@ body{
 	margin-top:-25%;
 }
 #nomi {
-	font-family: "Helvetica";
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	color:black;
+	color:white;
 }
 #descrizioni {
 	font-family: "Helvetica";
