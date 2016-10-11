@@ -66,8 +66,7 @@ body{
 .testo1 {
 	width:30%;
 	font-size:20px;
-	font-family:'Montserrat', sans-serif;
-	font-weight: regular;
+	font-family:'Merriweather', serif;
 	color:black;
 }
 .fotogruppo {
@@ -97,7 +96,7 @@ body{
 	color:white;
 }
 #descrizioni {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Crimson Text', serif;
 	font-weight: 400;
 	color:black;
 }
