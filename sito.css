@@ -11,7 +11,7 @@ body{
 	;
 }
 .menu {
-	font-family:"Helvetica";
+	font-family:'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size:16px;
 	background-color: #000000;
@@ -66,8 +66,8 @@ body{
 .testo1 {
 	width:30%;
 	font-size:20px;
-	font-family:"Helvetica";
-	font-weight: bold;
+	font-family:'Montserrat', sans-serif;
+	font-weight: regular;
 	color:black;
 }
 .fotogruppo {
@@ -93,12 +93,12 @@ body{
 }
 #nomi {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+	font-weight: 700;
 	color:white;
 }
 #descrizioni {
-	font-family: "Helvetica";
-	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 	color:black;
 }
 .Ahmed {
