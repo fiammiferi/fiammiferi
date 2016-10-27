@@ -1,20 +1,45 @@
 * {
 	text-decoration: none;
 }
-
-body{
+.copertina {
+    width = 100%;
+    height = 100vh;
+    min-height: 100vh;
+    background-color: transparent;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center; 
+    background-image: url(sfondosito2.png);
+    background-size: cover;
+}
+body {
+	margin:0;
+}
+.body1{
 	background: url(backgroundsito3.png) no-repeat ;
 	background-size:100% 100%;
 	background-color: #FFDAB9;
 	overflow-y: scroll;
-	margin:0
-	;
+	margin:0;
+}
+.body2{
+	background: url(backgroundsito4.png) no-repeat ;
+	background-size:100% 100%;
+	background-color: #FFDAB9;
+	overflow-y: scroll;
+	margin:0;
 }
 .menu {
 	font-family:'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size:16px;
 	background-color: #000000;
+	opacity: 90%;
+	display: block;
 }
 .nav {
 	width:100%;
@@ -32,6 +57,9 @@ body{
 }
 .nav ul li {
 	display:inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top:-2px;
 }
 .nav ul li:hover {
 	background-color:#333;
@@ -46,28 +74,53 @@ body{
 	color: #ccc
 	text-decoration: none ;
 }
+
+.trattino {
+	font-family:'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size:130px;
+	color: black;
+	margin-top: -160px;
+}
 .logo {
 	font-family:'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size:50px;
+	font-size:130px;
 	color: black;
-	margin:20px;	
+	margin-top:-15px;	
 }
-.aboutus {
-	margin-top: 300px ;
+
+.sottotitolo {
+	font-size: 28px;
+	font-family:'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-top: -100px;
+}
+
+
+#trattinotitoli {
+	font-family:'Montserrat', sans-serif;
+	font-weight:Bold;
+	font-size:70px;
+	text-decoration: none;
+	color: black;
+	margin-top:-70px;
 }
 #titoli {
 	font-family:'Montserrat', sans-serif;
 	font-weight:Bold;
-	font-size:50px;
+	font-size:70px;
 	text-decoration: none;
 	color: black;
+	margin-top:100px;
 }
 .testo1 {
 	width:30%;
 	font-size:14px;
 	font-family:'Muli', sans-serif;
 	color:black;
+	margin-top:-50px;
+	
 }
 .fotogruppo {
 	width: 100%;
@@ -93,12 +146,13 @@ body{
 #nomi {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	color:white;
+	color:black;
 }
 #descrizioni {
 	font-family: 'Muli', sans-serif;
 	font-weight: 400;
 	color:black;
+	font-size:14px;
 }
 .Ahmed {
 	width: 50%;
@@ -129,26 +183,17 @@ body{
 	margin-left:20%;
 }
 
-
-.Contact {
-	margin-bottom:100px;
-	padding-top: 150px;
-	clear:both;
+#data {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color:black;
+	margin-top:100px;
+	margin-down:-30px;
 }
-#testo2 {
-	font-family: 'Muli', sans-serif;
-	color: black;
-}
-#caselle {
-	width:300px;
-	height:30px;
-}
-
-.textarea {
-	width:300px;
-	height:150px;
-}
-.tastoinvio {
-	width: 100px;
-	font-family:"Helvetica";
+#nomiupdates {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color:black;
+	font-size: 25px;
+	margin-down:30px;
 }
